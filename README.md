@@ -34,3 +34,5 @@ network.learn()
 ```
 
 Afterwards you can use `network.infer(train_X, train_Y)` to infer data. Here the first argument is a matrix of samples you want to classify. The second argument is the OHE-matrix of true labels which can be used directly in the `infer`-function to calculate the error.
+
+For example using the setup above we get an accuracy of 95.35% on the test set.
